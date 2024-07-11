@@ -16,3 +16,9 @@ Proses yang dikerjakan dalam project ini meliputi:
 6. Klasterisasi dengan K-Means
 
 Model yang digunakan untuk melihat performa terbaik dengan hasil sebagai berikut:
+![Tabel Perbandingan Performa Model Regresi](https://github.com/arindalestari/Taylor-Swift-Data-Viz-and-Modelling/blob/main/newplot%20(1).png)
+
+# Insight
+
+
+
