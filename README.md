@@ -20,5 +20,17 @@ Model yang digunakan untuk melihat performa terbaik dengan hasil sebagai berikut
 
 # Insight
 
+Berdasarkan grafik visualisasi berikut, yang menempati urutan pertama pada 10 album berdasarkan tingkat popularitas adalah album The Tortured Poets Department (TTPD), untuk lagu yang menempati urutan pertama berdasarkan tingkat popularitas lagu dengan judul "fortnight".
+![Diagram Batang](https://github.com/arindalestari/Taylor-Swift-Data-Viz-and-Modelling/blob/main/Top%20Album.png)
 
+![Diagram batang2](https://github.com/arindalestari/Taylor-Swift-Data-Viz-and-Modelling/blob/main/Top%20Song.png)
+
+Berikut merupakan plot klasterisasi antara valencedan energy
+![Plot Klasterisasi](https://github.com/arindalestari/Taylor-Swift-Data-Viz-and-Modelling/blob/main/Klasterisasi.png)
+
+Dengan mengamati posisi titik-titik dalam scatter plot, kamu bisa melihat karakteristik umum dari setiap cluster:
+
+* Cluster 0: Jika titik-titik dalam cluster ini cenderung berada di bagian kanan atas scatter plot, berarti cluster ini terdiri dari lagu-lagu dengan valence dan energy tinggi (lagu-lagu yang ceria dan berenergi).
+* Cluster 1: Jika titik-titik dalam cluster ini berada di tengah, ini berarti cluster ini mungkin terdiri dari lagu-lagu dengan valence dan energy sedang (balance lah ya istilahnya).
+* Cluster 2: Jika titik-titik dalam cluster ini berada di kiri bawah, ini berarti cluster ini terdiri dari lagu-lagu dengan valence dan energy rendah (lagu-lagu yang lebih sedih dan rendah energi).
 
