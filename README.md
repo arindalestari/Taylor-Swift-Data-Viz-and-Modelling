@@ -28,6 +28,7 @@ Model dengan Performa Terbaik: **Gradient Boosting Descent** menunjukkan perform
 
 2. Berikut merupakan plot klasterisasi antara valence dan energy
 ![Plot Klasterisasi](https://github.com/arindalestari/Taylor-Swift-Data-Viz-and-Modelling/blob/main/Klasterisasi.png)
+
 Dengan mengamati posisi titik-titik dalam scatter plot, kamu bisa melihat karakteristik umum dari setiap cluster:
 
 * Cluster 0: Jika titik-titik dalam cluster ini cenderung berada di bagian kanan atas scatter plot, berarti cluster ini terdiri dari lagu-lagu dengan valence dan energy tinggi (lagu-lagu yang ceria dan berenergi).
