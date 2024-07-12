@@ -54,6 +54,14 @@ Analisis residual digunakan untuk melihat distribusi residual (perbedaan antara 
 * Ketika kita membuat plot prediksi vs nilai sebenarnya, garis y = x digambarkan sebagai garis merah putus-putus. Titik data (scatter plot) diatas yang berada dekat dengan garis merah menunjukkan bahwa nilai yang diprediksi oleh model hampir sama dengan nilai sebenarnya.
 * Dalam konteks evaluasi model regresi, tujuan adalah agar titik-titik data sebanyak mungkin berada dekat dengan garis merah, menunjukkan bahwa model mampu memprediksi nilai dengan akurat.
 
+# Apa yang harus diimprove pada mini project ini?
+
+1. Detail pada hasil analisa Nilai MAE dan Nilai MAE setelah dilakukan teknik validasi silang hasilnya dapat dikatakan overfitting. Mengapa demikian? dikarenakan hasil antara MAE prediksi awal didapatkan 5.63 dan hasil dari MAE setelah dilakukan Cross-Validation 11.72 terdapat perbedaan yang sangat signifikan.
+2. Prediksi popularitas lagu mungkin tidak dapat diandalkan sepenuhnya karena model menunjukan tanda-tanda overfitting sehingga, model perlu ditinjau ulang setelah model diperbaiki untuk mengurangi overfitting.
+3. Lakukan hyperparameter tuning dengan teknik grid search atau random search.
+4. Mencoba teknik regularization.
+5. Mencoba pendekatan ensemble lain untuk peningkatan kinerja model.
+
   Untuk detail project lebih lanjut silahkan klik atau download file yang berformat .ipynb
 
   Semoga dengan adanya mini project ini bermanfaat untuk pemahaman penerapan machile learning pada dunia nyata. Sampai jumpa di mini project saya selanjutnya.
