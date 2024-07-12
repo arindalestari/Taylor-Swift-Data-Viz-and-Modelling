@@ -57,11 +57,11 @@ Analisis residual digunakan untuk melihat distribusi residual (perbedaan antara 
 # Apa yang harus diimprove pada mini project ini?
 
 1. Detail pada hasil analisa Nilai MAE dan Nilai MAE setelah dilakukan teknik validasi silang hasilnya dapat dikatakan overfitting. Mengapa demikian? dikarenakan hasil antara MAE prediksi awal didapatkan 5.63 dan hasil dari MAE setelah dilakukan Cross-Validation 11.72 terdapat perbedaan yang sangat signifikan.
-2. Prediksi popularitas lagu mungkin tidak dapat diandalkan sepenuhnya karena model menunjukan tanda-tanda overfitting sehingga, model perlu ditinjau ulang setelah model diperbaiki untuk mengurangi overfitting.
+2. Prediksi popularitas lagu mungkin tidak dapat diandalkan sepenuhnya karena model menunjukan tanda-tanda overfitting sehingga, model perlu ditinjau ulang setelah model diperbaiki untuk mengurangi overfitting dan popularitas lagu itu berubah-ubah dalam jangka waktu bulan maupun tahun
 3. Lakukan hyperparameter tuning dengan teknik grid search atau random search.
 4. Mencoba teknik regularization.
-5. Mencoba pendekatan ensemble lain untuk peningkatan kinerja model.
+5. Mencoba pendekatan ensemble lain atau menggunakan metode forecast (analisis time series) untuk peningkatan kinerja model.
 
   Untuk detail project lebih lanjut silahkan klik atau download file yang berformat .ipynb
 
-  Semoga dengan adanya mini project ini bermanfaat untuk pemahaman penerapan machile learning pada dunia nyata. Sampai jumpa di mini project saya selanjutnya.
+  Semoga dengan adanya mini project ini bermanfaat untuk pemahaman penerapan machile learning pada dunia nyata. Selamat mencoba dan sampai jumpa di mini project saya selanjutnya.
