@@ -36,3 +36,24 @@ Dengan mengamati posisi titik-titik dalam scatter plot, kamu bisa melihat karakt
 * Cluster 2: Jika titik-titik dalam cluster ini berada di kiri bawah, ini berarti cluster ini terdiri dari lagu-lagu dengan valence dan energy rendah (lagu-lagu yang lebih sedih dan rendah energi).
 
 3. Prediksi model gradient boosting 
+Didapatkan hasil prediksi tingkat popularitas lagu Taylor Swift setelah dilatih data baru:
+
+Mean Absolute Error: 5.627018846545834
+
+Prediksi Popularitas: 80.34223731942195
+
+Dari output diatas, rata-rata kesalahan prediksi model terhadap popularitas lagu Taylor Swift adalah sekitar 5.63 (dalam skala yang sesuai dengan popularitas lagu tersebut)dan prediksi popularitas lagu Taylor Swift yang diberikan pada model gradient boosting adalah 80.34 untuk tanggal 1 Juli 2024 dari skala ukuran popularitas berdasarkan data yaitu 0-100.
+
+Analisis residual digunakan untuk melihat distribusi residual (perbedaan antara nilai aktual dan nilai yang diprediksi) dapat memberikan wawasan tentang kinerja model dengan plot berikut:
+
+![plot 1](https://github.com/arindalestari/Taylor-Swift-Data-Viz-and-Modelling/blob/main/plot%20residual%20lonceng.png)
+
+![plot 2](https://github.com/arindalestari/Taylor-Swift-Data-Viz-and-Modelling/blob/main/scatter%20plot.png)
+
+* Distribusi residual yang normal (berbentuk lonceng) menunjukkan bahwa model memiliki error yang terdistribusi dengan baik.
+* Ketika kita membuat plot prediksi vs nilai sebenarnya, garis y = x digambarkan sebagai garis merah putus-putus. Titik data (scatter plot) diatas yang berada dekat dengan garis merah menunjukkan bahwa nilai yang diprediksi oleh model hampir sama dengan nilai sebenarnya.
+* Dalam konteks evaluasi model regresi, tujuan adalah agar titik-titik data sebanyak mungkin berada dekat dengan garis merah, menunjukkan bahwa model mampu memprediksi nilai dengan akurat.
+
+  Untuk detail project lebih lanjut silahkan klik atau download file yang berformat .ipynb
+
+  Semoga dengan adanya mini project ini bermanfaat untuk pemahaman penerapan machile learning pada dunia nyata. Sampai jumpa di mini project saya selanjutnya.
